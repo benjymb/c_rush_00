@@ -6,14 +6,14 @@
 /*   By: bmalca-b <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/16 12:57:31 by bmalca-b          #+#    #+#             */
-/*   Updated: 2025/08/16 13:37:11 by bmalca-b         ###   ########.fr       */
+/*   Updated: 2025/08/16 14:19:44 by bmalca-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "rush02.c"
+void	rush(int w, int h);
 
-int	main()
+int	main(void)
 {
-	rush(0, 1);
+	rush(1, 1);
 	return (0);
 }
